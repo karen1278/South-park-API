@@ -3,7 +3,7 @@ const router = express.Router();
 const characterController = require("../../controllers/characterController")
 
 
-/**
+/**7
  * @openapi
  * /api/v1/characters:
  *   get:
@@ -111,6 +111,7 @@ router.get('/', characterController.getAllCharacters);
  */
 
 router.get('/:id', characterController.getOneCharacter);
+
 /**
  * @openapi
  * /api/v1/characters:
